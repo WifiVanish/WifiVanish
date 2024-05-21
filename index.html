@@ -1,1 +1,83 @@
-Primaire is gay
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WifiVanish - Download</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #00c6ff, #0072ff);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: #0072ff;
+            background: #fff;
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s, transform 0.3s;
+            margin: 10px;
+        }
+        .download-btn:hover {
+            background: #00c6ff;
+            color: #fff;
+            transform: scale(1.05);
+        }
+        .download-btn img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WifiVanish</h1>
+        <p>Your ultimate tool to manage and secure your WiFi networks.</p>
+        <a href="https://github.com/WifiVanish/WifiVanish/releases/download/WifiVanish/WifiVanish.exe" class="download-btn">
+            <img src="https://img.icons8.com/fluency/32/000000/windows-10.png" alt="Windows Icon">
+            Download for Windows
+        </a>
+        <a href="https://github.com/WifiVanish/WifiVanish/releases/download/WifiVanish/WifiVanish.apk" class="download-btn">
+            <img src="https://img.icons8.com/fluency/32/000000/android-os.png" alt="Android Icon">
+            Download for Android
+        </a>
+    </div>
+    <div class="footer">
+        &copy; 2024 WifiVanish. All rights reserved.
+    </div>
+</body>
+</html>
